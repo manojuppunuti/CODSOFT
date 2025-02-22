@@ -1,0 +1,146 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://i.ytimg.com/vi/Pdbc1xjOkM8/maxresdefault.jpg');
+    
+    color: #333;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: black;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  header .logo img {
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ffd700;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('https://via.placeholder.com/1600x800?text=Disney+Magic');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #ffd700;
+    color: #0052a5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #ffcc00;
+  }
+  
+  /* Featured Movies Section with Four Images */
+  .featured {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .featured h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0052a5;
+  }
+  
+  .movie-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .movie-item {
+    text-align: center;
+  }
+  
+  .movie-item img {
+    width: 100%;
+    max-width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .movie-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  .movie-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  footer .footer-content p {
+    font-size: 1rem;
+  }
